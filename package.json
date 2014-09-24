@@ -1,0 +1,29 @@
+{
+  "name": "npm-outdated-hipchat",
+  "version": "0.0.1",
+  "description": "A small utility to report the result of npm outdated to a hipchat room",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigonGames/npm-outdated-hipchat.git"
+  },
+  "keywords": [
+    "hipchat",
+    "npm"
+  ],
+  "author": "Vignir Hafsteinsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DigonGames/npm-outdated-hipchat/issues"
+  },
+  "homepage": "https://github.com/DigonGames/npm-outdated-hipchat",
+  "dependencies": {
+    "minimist": "~1.1.0",
+    "npm": "~2.0.0",
+    "superagent": "~0.18.2",
+    "lodash": "~2.4.1"
+  }
+}

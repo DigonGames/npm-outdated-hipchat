@@ -26,3 +26,10 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+#intellij and sublime files
+*.iml
+.idea/*
+atlassian-ide-plugin.xml
+*.sublime-project
+*.sublime-workspace
