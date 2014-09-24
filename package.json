@@ -1,10 +1,13 @@
 {
   "name": "npm-outdated-hipchat",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A small utility to report the result of npm outdated to a hipchat room",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "npm-outdated-hipchat": "./bin/npm-outdated-hipchat"
   },
   "repository": {
     "type": "git",
