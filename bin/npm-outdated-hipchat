@@ -3,11 +3,14 @@
 var os = require('os');
 var report = require('../');
 function run() {
-  var argv = require('minimist')(process.argv.slice(2));
+  var options = require('minimist')(process.argv.slice(2));
+  if(options.ignoredModules){
+    options.ignoredModules = options.ignoredModules.split(',');
+  }
 
-  var project = argv.project;
-  var token = argv.token;
-  var roomId = argv.roomId;
+  var project = options.project;
+  var token = options.token;
+  var roomId = options.roomId;
   if (!project) {
     console.error('No project specified. Please specify it with --project');
     process.exit(-1);
@@ -23,7 +26,7 @@ function run() {
     process.exit(-1);
   }
 
-  report(argv, function (err) {
+  report(options, function (err) {
     if (err) {
       console.error('Failed sending info');
       console.error(err);

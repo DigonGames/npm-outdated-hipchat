@@ -1,6 +1,6 @@
 {
   "name": "npm-outdated-hipchat",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A small utility to report the result of npm outdated to a hipchat room",
   "main": "index.js",
   "scripts": {
@@ -30,6 +30,7 @@
     "minimist": "1.1.0",
     "npm": "2.0.0",
     "superagent": "0.19.0",
-    "lodash": "2.4.1"
+    "lodash": "2.4.1",
+    "semver": "~4.0.0"
   }
 }

@@ -35,3 +35,7 @@ You can specify some options on the command-line:
   *  The name of the sender. default value: 'npm outdated'
 *  depth
   *  Max depth for checking dependency tree. See the documentation for [npm outdated](https://www.npmjs.org/doc/cli/npm-outdated.html). default value: 0
+* ignorePreReleases
+  *  If the latest version is a pre-release, it is ignored. default value: true
+* ignoredModules
+  *  A comma-separated list of modules to ignore from the check
