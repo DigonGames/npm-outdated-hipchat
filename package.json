@@ -1,6 +1,6 @@
 {
   "name": "npm-outdated-hipchat",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A small utility to report the result of npm outdated to a hipchat room",
   "main": "index.js",
   "scripts": {
